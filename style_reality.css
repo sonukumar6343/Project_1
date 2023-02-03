@@ -1,0 +1,107 @@
+body{
+    background-image:url( "https://images.hdqwalls.com/download/shattered-planet-4k-p4-3840x2400.jpg");
+    background-attachement:fixed;
+    background-size:CONTAIN;
+    /* animation:widthanima 10s ease-in-out 1s  INFINITE;
+     */
+
+}
+.container{
+    font-family: 'Lobster', cursive;
+    font-size: x-large;
+    display:justify-content;
+    transform:scaleX(3);
+    color:greenyellow;
+    
+    text-align:center;
+    height:10vh;
+    width:30vw;
+    margin:3px 5px 0px 0px;
+    text-decoration: underline overline #fff428;
+    /* background-color: coral; */
+    animation:widthanimate 6s linear  infinite running;
+  
+    
+
+}
+
+
+    .class{font-family: 'Lobster', cursive;
+        font-size: x-large;
+        display:justify-content;
+        transform:scaleX(3);
+        color:rgb(255, 120, 47);
+        width:fit-content;
+        height:fit-content;
+        border: 4mm ridge rgba(222, 16, 171, 0.975);
+     
+        translate: 460px;
+        text-align:center;
+        margin:10px 5px 8px 0px;
+        background-color: aqua;
+        /* animation:widthanimate 2s linear  infinite running; */
+
+    }
+    .case{
+        align-items:start;
+    }
+    .CLUB{
+        font-family: 'Lobster', cursive;
+        font-size: x-large;
+        display:justify-content;
+        transform:scaleX(3);
+        color:greenyellow;
+        
+        text-align:center;
+        /* height:10vh;
+        width:30vw;
+        margin:3px 5px 0px 0px; */
+        text-decoration: underline overline #fff428;
+
+    }
+      
+        
+    @keyframes widthanimate {
+        from{
+            width:-5vw;
+           
+        }
+        to{
+            width:300vw;
+        }
+    }
+    P{ font-family: 'Lobster', cursive;
+        font-size: large;
+        display:justify-content;
+        transform:scaleX(3);
+        color:greenyellow;
+        
+        text-align:center;
+        animation:widthanimate 1s linear 3s  infinite running;
+
+    }
+    img{
+        animation:widthanimat 10s alternate-reverse 2s  infinite running;
+    }
+    @keyframes widthanimat {
+        from{
+            width:50vw;
+            height:100px;
+           
+        }
+        to{
+            width:100vw;
+            height:400px;
+        }
+    }
+    @keyframes widthanima {
+        from{
+            /* width:50PX; */
+            height:300px;
+           
+        }
+        to{
+            /* width:100vw; */
+            height:400px;
+        }
+    }
