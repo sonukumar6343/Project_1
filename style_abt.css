@@ -1,0 +1,140 @@
+
+        body{
+            
+            background-image: url( "https://th.bing.com/th/id/R.5ee1c10f42857fd4443d46d93edf3914?rik=pT%2blh72O8w2gJw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f5%2f4%2fd%2f168634.jpg&ehk=wMII%2fhK%2b6gQOJvt1PnUtJ%2fJnCpPeeyntDeRD4yLulUA%3d&risl=&pid=ImgRaw&r=0");
+            
+            background-size:auto;
+
+
+        }
+h1{
+    font-family: sans-serif;
+    font-color:black;
+    font-weight:bolder;
+    background-color:#00c3ff;;
+    border: 4mm ridge rgba(19, 222, 16, 0.975);
+    text-align: center;
+    font-stretch:semi-expanded;
+    
+}
+p{
+    font-style: italic;
+    font-family: 'Source Code Pro', monospace;
+}
+.class1{
+    border: 10px;
+    border-color: black;
+    font-weight: bolder;
+    /* height: fit-content;
+width: fit-content; */
+margin: 71px;
+padding: 2px;
+background-color: orange;
+translate: 2217px;
+transform: scaleX(4);
+border: 4mm ridge rgba(16, 75, 222, 0.975);
+
+}
+.class2{
+    font-weight: bolder;
+    height: fit-content;
+width: fit-content;
+margin: 71px;
+padding: 2px;
+background-color: orange;
+translate: 453px;
+}
+.class3{
+    font-weight: bolder;
+    height: fit-content;
+width: fit-content;
+margin: 71px;
+padding: 2px;
+background-color: orange;
+translate: 453px;
+}
+.class4{
+    font-weight: bolder;
+    height: fit-content;
+width: fit-content;
+margin: 71px;
+padding: 2px;
+background-color: orange;
+translate: 453px;
+}
+.class5{
+    font-weight: bolder;
+    height: fit-content;
+width: fit-content;
+margin: 71px;
+padding: 2px;
+background-color: orange;
+translate: 453px;
+}
+.class6{
+    font-weight: bolder;
+    height: fit-content;
+width: fit-content;
+margin: 71px;
+padding: 2px;
+background-color: orange;
+translate: 453px;
+}
+.class7{
+    font-weight: bolder;
+    height: fit-content;
+width: fit-content;
+margin: 71px;
+padding: 2px;
+background-color: orange;
+translate: 453px;
+}
+.class8{
+    font-weight: bolder;
+    height: fit-content;
+width: fit-content;
+margin: 71px;
+padding: 2px;
+background-color: orange;
+translate: 453px;
+animation-name:widthanimate;
+}
+.ece{
+    translate: 533px;
+    display:inline-block; 
+    border:10px;
+    
+}
+.img{width:300px;
+    translate: 402px;
+    display:inline-block;
+    border:10px;
+    /* transform:skew(45deg,10deg); */
+    animation-name:widthanimate;
+    animation-duration:3s;
+    
+
+}
+img:hover{
+    width:1000px;
+}
+img{
+    transition-property:width ;
+    transition-duration: 3s;
+    transition-timing-function:ease-in;
+    
+border: 0vmin;
+    
+    /* transition:width 3s,ease-in 1s ease-in;     */
+    /* border: thick double #a732ce; */
+    border: 4mm ridge rgba(187, 11, 218, 0.94);
+}
+@keyframes widthanimate {
+    from{
+        width:fit-content;
+    }
+    to{
+        width:600PX;
+    }
+    
+}
