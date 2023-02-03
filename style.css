@@ -1,0 +1,131 @@
+.name{
+    font-family: 'Lobster', cursive;
+    
+    /* display:justify-content; */
+    
+    color:rgb(47, 89, 255);
+    
+    text-align:center;
+    height:10vh;
+    width:30vw;
+    margin:3px 5px 0px 0px;
+    text-decoration: underline overline #33ff28;
+    font-size:70px;
+    animation:widthanimate 20s alternate-reverse  infinite running;
+}
+@keyframes widthanimate {
+    from{
+        width:-38vw;
+        color: rgb(255, 213, 47);
+        font-size:50px;
+        opacity: 0.3;
+        
+    }
+    to{
+        width: 300vw;
+        color:   rgb(255, 0, 143);
+        font-size: 60px;
+        opacity:1;
+        
+      }
+    }
+body{
+    background-image:url("https://wallpaperaccess.com/full/39623.jpg");
+    background-size: cover;
+background-repeat: no-repeat;
+}
+.img{
+    height:507px;
+    width:604px;
+    background-color:#33ff28;
+    margin:38px 500px 3px;
+    border: 4mm ridge rgba(222, 16, 171, 0.975);
+    animation:widthanimat  20s alternate-reverse 1s infinite running;
+}
+
+
+@keyframes widthanimat {
+    from{
+        border-color:rgba(222, 16, 171, 0.975);
+       
+        opacity: 0.3;
+        
+    }
+    to{
+        border-color:#33ff28;
+        opacity:1;
+        
+      }
+    }
+    .EXPECTATION{
+        margin-left: 200px;
+        margin-top: 200px;
+        height:fit-content;
+        width:fit-content;
+        background-color: rgb(252, 246, 246);
+        border: 2mm ridge rgba(212, 12, 231, 0.975);
+        font-size:30px;
+        
+        animation:expectation  10s alternate-reverse .1s infinite running;
+    }
+    .GITHUB{
+        margin-left: 200px;
+        margin-top: 20px;
+        height:fit-content;
+        width:fit-content;
+        background-color: rgb(252, 246, 246);
+        border: 2mm ridge rgba(212, 12, 231, 0.975);
+        font-size:30px;
+        
+        animation:expectation  10s alternate-reverse .1s infinite running;
+    }
+    .LINKEDIN{
+        margin-left: 200px;
+        margin-top: 20px;
+        height:fit-content;
+        width:fit-content;
+        background-color: rgb(252, 246, 246);
+        border: 2mm ridge rgba(212, 12, 231, 0.975);
+        font-size:30px;
+        
+        animation:expectation  10s alternate-reverse .1s infinite running;
+    }
+    
+@keyframes expectation {
+    from{
+        border-color:rgba(222, 16, 171, 0.975);
+        background-color: #f6f6f6;
+       
+        opacity: 0.3;
+        
+    }
+    to{
+        border-color:#33ff28;
+        opacity:1;
+        background-color: #04f7db;
+       
+        
+      }
+    }
+    .REALITY{
+        margin-left: 200px;
+        margin-top: 20px;
+        height:fit-content;
+        width:fit-content;
+        background-color: rgb(252, 246, 246);
+        border: 2mm ridge rgba(212, 12, 231, 0.975);
+        font-size:30px;
+        
+        animation:expectation  10s alternate-reverse .1s infinite running;
+    }
+    .about{
+        margin-left: 200px;
+        margin-top: 20px;
+        height:fit-content;
+        width:fit-content;
+        background-color: rgb(252, 246, 246);
+        border: 2mm ridge rgba(212, 12, 231, 0.975);
+        font-size:30px;
+        
+        animation:expectation  10s alternate-reverse .1s infinite running;
+    }
